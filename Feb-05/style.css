@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+hr{
+    margin-left: 4%;
+}
+nav img{
+    height: 40px;
+    margin-left:4%;
+}
+nav ul{
+    margin-left: 4%;
+    display: flex;
+    gap: 40px;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+nav button{
+    border-radius: 7px;
+    margin-left: 42%;
+    padding: 5px 12px;
+    background-color: rgb(195, 71, 195);
+
+}
+nav button a{
+    text-decoration: none;
+    font-weight: 530;
+    font-size: 1rem;
+    color: white;
+
+}
+section{
+   background-image: url(./assets/bg.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100% 100% ;
+   height: 100vh;
+   width: 100vw;
+}
+   
+.text{
+    width: 50%;
+    height: 50%;
+    transform: translate(50%,40%);
+    text-align: center;
+
+}
+.text h1{
+    color: white;
+    font-size: 4.2rem;
+    font-weight: 750;
+}
+.text p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 570;
+    margin-top: 20px;
+}
+.text button{
+    margin-top: 55px;
+    padding: 8px 12px;
+    border-radius: 9px;
+    background-color: rgb(195, 71, 195);
+}
+.text button a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 550;
+}
