@@ -26,7 +26,9 @@ nav button{
     width: 90px;
     height: 30px;
     margin-top: 5px;
-    background-color:purple;
+    background-color:#5869cb;
+    border-style: none;
+    border-radius: 10px;
 
 }
 nav button a{
@@ -60,9 +62,11 @@ section{
 .left_section button{
     width: 160px;
     height: 35px;
-    transform: translate(100%,10%);
+    /* transform: translate(100%,10%); */
     margin-top: 30px;
-    background-color:purple;
+    background-color:#5869cb;
+    border-radius: 10px;
+    border-style: none;
 }
 .left_section button a{
     text-decoration: none;
