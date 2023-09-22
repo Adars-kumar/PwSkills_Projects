@@ -1,0 +1,582 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+
+}
+body{
+  background-color: #f6f8fa;
+  overflow-x: hidden;
+}
+/*----------------------------- Header-----------------------------*/
+header{
+    position: relative;
+    height: 125vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./Images/mainBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*-------- Nav Bar -------*/
+nav{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav img{
+    height: 45px;
+}
+nav ul{
+    width: 27%;
+    padding: .6% 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 540;
+}
+
+/*---------- Header Text --------*/
+.header-text{
+    color: white;
+    margin: 5% 0 0 10% ;
+}
+.header-text h1{
+    font-size: 4.5rem;
+}
+.header-text p{
+    position: absolute;
+    text-align: left;
+    margin: 3% 0;
+    font-size: 1.2rem;
+}
+.header-text button{
+    margin-top: 10%;
+    border-style: none;
+    border-radius: 28px;
+    padding: 10px 25px;
+    background: #6663e9;
+}
+.header-text button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+/*------------------Logo--------------------*/
+.logo{
+    background-color: #fff;
+    position: absolute;
+    border-radius: 28px;
+    top: 115%;
+    margin: 0 3%;
+    width: 94%;
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-around;
+}
+/*----------------------------- Main -----------------------------*/
+/*-------------- Center-Heading ---------------*/
+.center-heading{
+    padding: 3% 0;
+    margin: 10% 0 0 38%;
+    width: 30%;
+}
+.center-heading h1{
+    font-size: 3.8rem;
+    text-align: center;
+
+}
+/*-------------- Card-Box --------------------*/
+.card-box {
+    width: 90%;
+    margin: 0 5% ;
+    height:212vh;
+
+}
+/*-------------- Card 1 --------------------*/
+.card1 .home-image{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    position: relative;
+}
+.card1 .home-image img{
+    border-radius: 25px;
+    width: 27%;
+    height: 400px;
+    position: relative;
+}
+.card1 .home-image #img2{
+    margin-top: 2%;
+}
+.card1 .home-image #img3{
+    margin-top: 4%;
+}
+
+.card1 .home-image div{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 23%;
+    height: 120px;
+}
+.card1 .home-image #d1{
+    position: absolute;
+    left: 5%;
+    top: 225%;
+}
+.card1 .home-image #d2{
+    position: absolute;
+    left: 38%;
+    top: 245%;
+}
+.card1 .home-image #d3{
+    position: absolute;
+    left: 72%;
+    top: 260%;
+}
+.card1 .home-image h1{
+    font-size: 1.5rem;
+    margin: 22px 0 10px 8px;
+}
+.card1 .home-image p{
+    position: absolute;
+    color: #6663e9;
+    font-weight: 800;
+    font-size: 1.3rem;
+    margin: 4px 0 0 10px;
+}
+.card1 .home-image  button{
+    border: 3px solid black;
+    cursor: pointer;
+    position: absolute;
+    padding: 13px 35px;
+    left: 58%;
+    top: 28%;
+    border-radius: 28px;
+    border-style: none;
+    background: #6663e9;
+}
+.card1 .home-image  button a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 530;
+    color: white;
+    letter-spacing: 1px;
+}
+/*-------------- Card 2 --------------------*/
+
+.card2 .home-image{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    position: relative;
+    flex-direction: row-reverse;
+    margin-top: 30%;
+}
+.card2 .home-image img{
+    border-radius: 25px;
+    width: 27%;
+    height: 400px;
+    position: relative;
+}
+.card2 .home-image #img2{
+    margin-top: 2%;
+}
+.card2 .home-image #img3{
+    margin-top: 4%;
+}
+
+.card2 .home-image div{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 23%;
+    height: 120px;
+}
+.card2 .home-image #d1{
+    position: absolute;
+    left: 5%;
+    top: 260%;
+}
+.card2 .home-image #d2{
+    position: absolute;
+    left: 38%;
+    top: 245%;
+}
+.card2 .home-image #d3{
+    position: absolute;
+    left: 72%;
+    top: 225%;
+}
+.card2 .home-image h1{
+    font-weight: 0;
+    font-size: 1.5rem;
+    margin: 22px 0 10px 8px;
+}
+.card2 .home-image p{
+    position: absolute;
+    color: #6663e9;
+    font-weight: 800;
+    font-size: 1.3rem;
+    margin: 4px 0 0 10px;
+}
+.card2 .home-image  button{
+    border: 3px solid black;
+    cursor: pointer;
+    position: absolute;
+    padding: 13px 35px;
+    left: 58%;
+    top: 28%;
+    border-radius: 28px;
+    border-style: none;
+    background: #6663e9;
+}
+.card2 .home-image  button a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 530;
+    color: white;
+    letter-spacing: 1px;
+}
+/*-------------- Card 3 --------------------*/
+.card3 .home-image{
+    margin-top: 30%;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    position: relative;
+}
+.card3 .home-image img{
+    border-radius: 25px;
+    width: 27%;
+    height: 400px;
+    position: relative;
+}
+.card3 .home-image #img2{
+    margin-top: 2%;
+}
+.card3 .home-image #img3{
+    margin-top: 4%;
+}
+
+.card3 .home-image div{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 23%;
+    height: 120px;
+}
+.card3 .home-image #d1{
+    position: absolute;
+    left: 5%;
+    top: 225%;
+}
+.card3 .home-image #d2{
+    position: absolute;
+    left: 38%;
+    top: 245%;
+}
+.card3 .home-image #d3{
+    position: absolute;
+    left: 72%;
+    top: 260%;
+}
+.card3 .home-image h1{
+    font-weight: 0;
+    font-size: 1.5rem;
+    margin: 22px 0 10px 8px;
+}
+.card3 .home-image p{
+    position: absolute;
+    color: #6663e9;
+    font-weight: 800;
+    font-size: 1.3rem;
+    margin: 4px 0 0 10px;
+}
+.card3 .home-image  button{
+    border: 3px solid black;
+    cursor: pointer;
+    position: absolute;
+    padding: 13px 35px;
+    left: 58%;
+    top: 28%;
+    border-radius: 28px;
+    border-style: none;
+    background: #6663e9;
+}
+.card3 .home-image  button a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 530;
+    color: white;
+    letter-spacing: 1px;
+}
+/* -------------------------- Booking 1----------------------------------- */
+.booking1{
+    position: absolute;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    height: 60%;
+    width: 100%;
+    display: flex;
+
+}
+.booking1 .left-section {
+    height: 100%;
+    width: 50%;
+}
+.booking1 .left-section .blue{
+    position: relative;
+    margin-top: 14%;
+    background: #6663e9;
+    height: 72%;
+    width: 68%;
+    border-radius: 0 65px 65px 0;
+}
+.booking1 .left-section .white{
+    position: absolute;
+    top: 22%;
+    left: 6%;
+    background: white;
+    height: 65%;
+    width: 23%;
+    border-radius: 40px;
+}
+.booking1 .left-section img{
+    position: absolute;
+    top: 0%;
+    left: 8%;
+    height: 82%;
+    width: 26%;
+    border-radius: 40px;
+}
+.booking1 .right-section h1{
+    margin-top: 18%;
+    width: 100%;
+    font-size: 3.4rem;
+    font-weight: 550;
+} 
+.booking1 .right-section p{
+    text-align: left;
+    margin-top: 7%;
+    width: 100%;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 550;
+} 
+.booking1 .right-section button{
+    width: 28%;
+    height: 10%;
+    margin-top: 7%;
+    font-size: 1rem;
+    background: #6663e9;
+    cursor: pointer;
+    border-radius: 28px;
+    border-style: none;
+} 
+.booking1 .right-section button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+/* -------------------------- Booking 2 ----------------------------------- */
+.booking2{
+    position: absolute;
+    margin-top: 45%;
+    margin-bottom: 15%;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.booking2 .left-section {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+    width: 60%;
+}
+.booking2 .left-section .blue{
+    position: relative;
+    margin-top: 14%;
+    background: #6663e9;
+    height: 72%;
+    width: 68%;
+    border-radius: 65px 0 0 65px ;
+}
+.booking2 .left-section .white{
+    position: absolute;
+    top: 22%;
+    right: 6%;
+    background: white;
+    height: 65%;
+    width: 28%;
+    border-radius: 40px;
+}
+.booking2 .left-section img{
+    position: absolute;
+    top: 0%;
+    right: 8%;
+    height: 82%;
+    width: 26%;
+    border-radius: 40px;
+}
+.booking2 .right-section h1{
+    margin-top: 18%;
+    width: 100%;
+    font-size: 3.8rem;
+    font-weight: 550;
+} 
+.booking2 .right-section p{
+    text-align: left;
+    margin-top: 7%;
+    width: 100%;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 540;
+} 
+.booking2 .right-section button{
+    width: 37%;
+    height: 10%;
+    margin-top: 7%;
+    font-size: 1rem;
+    background: #6663e9;
+    cursor: pointer;
+    border-radius: 28px;
+    border-style: none;
+} 
+.booking2 .right-section button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+/*------------------------ Subscribe - Card ---------------------------*/
+.subscribe-card{
+    position: relative;
+    border-radius: 100px;
+    background: #6663e9;
+    margin: 85% 5% 8% 5% ;
+    height: 62vh;
+}
+.subscribe-card div{
+    position: absolute;
+    width: 60%;
+    top: 15%;
+    left: 20%;
+    height: 80%;
+}
+.subscribe-card h1,p{
+    text-align: center;
+    color: white;
+}
+.subscribe-card h1{
+    font-size: 4rem;
+}
+.subscribe-card p{
+    margin: 4% 0 4% 0;
+    font-size: 1.3rem;
+}
+form{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    height: 17%;
+    width: 90%;
+}
+form div{ 
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    background: #4b49be;
+    border-radius: 28px;
+}
+form div img{ 
+    margin-left: 5%;
+    width:9%;
+    height: 88%;
+}
+form div input{ 
+    background: #4b49be;
+    border-radius: 28px;
+    font-size: 1.1rem;
+    color: white;
+    border-style: none;
+    width:100%;
+    height: 100%;
+}
+form button{
+    position: absolute;
+    padding: 15px 25px;
+    left: 81%;
+    top: 5%;
+    background: white;
+    border-radius: 28px;
+    font-size: 1.1rem;
+    color: #4b49be;
+    font-size: 1.4rem;
+    font-weight: 540;
+    border-style: none;
+}
+/*-------------------------- Footer ----------------------------*/
+footer{
+    height: 35vh;
+    position: relative;
+    display: flex;
+    gap: 4%;
+    justify-content: space-around;
+}
+footer .left-section{
+    height: 80%;
+    width: 35%;
+}
+footer .left-section img{
+    width: 27%;
+}
+footer .left-section .social-links {
+    margin: 5% 0;
+    width: 50%;
+    height: 20%;
+    display: flex;
+}
+footer .left-section .social-links img{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+footer .left-section h4{
+    font-size: 1.4rem;
+    font-weight: 500;
+    word-spacing: 3px;
+}
+
+footer .right-section{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+
+}
+footer .right-section div{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+footer .right-section div h1{
+    margin-bottom: 8%;
+}
+footer .right-section a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+

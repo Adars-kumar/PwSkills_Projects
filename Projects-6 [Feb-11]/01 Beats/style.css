@@ -1,0 +1,596 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+body{
+    background: #0f0f10;
+    overflow-x: hidden;
+    padding: 2% 16%;
+}
+header{
+    display: flex;
+}
+.logo{
+    margin-left: 2%;
+    height: 40px;
+    width: 80px;
+    margin-top: 1.2%;
+    cursor: pointer;
+}
+.main-img{
+    overflow: visible;
+    margin-left: 8%;
+    height: 100px;
+    width: 20%;
+}
+.main-img img{
+    height: 420px;
+    width: 200px;
+}
+nav{
+    margin-left: 20%;
+    height: 60px;
+    display: flex;
+    gap: 5%;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+}
+nav button{
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1.5%;
+    background-color: #1e1e21;
+    height: 40px;
+    padding: 0 35px;
+    border-radius: 10px ;
+}
+nav button a{
+    text-decoration: none;
+}
+/* -------------------------------------- Main Page ---------------------------------------- */
+/* --------------- Section-1 ---------------- */
+section{
+    height: 60%;
+    width: 42%;
+    margin-left: 58%;
+    margin-top: 2%;}
+.on-ear img{
+    margin-left: 25%;
+    height: 80%;
+    width: 70%;
+}
+section h1{
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+section h2{
+    margin: 7% 0;
+    font-size: 1.3rem;
+}
+section p{
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+section button{
+    /* border: 2px solid white; */
+    background-color: #1e1e21;
+    box-shadow: 5px 5px 10px rgb(40, 39, 39);
+    margin-top: 5%;
+    border-radius: 15px;
+    width: 70%;
+    height: 13%;
+}
+section button a{
+    height: 100%;
+    width: 100%;
+    padding: 0 15%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 15px;
+}
+section button a img{
+    font-weight: 900;
+}
+section button a h2{
+    font-size: .9rem;
+}
+section button a h3{
+    font-size: 1.2rem;
+}
+.social-link{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 20%;
+}
+
+/*----------------------------- Specs ------------------------------------*/
+.specs{
+    height: 70%;
+    width: 55%;
+    margin: 8% 25% 5% 25%;
+}
+.specs .heading-text{
+    height: 13%;
+    width: 30%;
+    margin-left: 35%;
+}
+.specs .heading-text img{
+    height: 100%;
+    width: 100%;
+}
+.container1{
+    height: 79%;
+    display: flex;
+    margin-top: 8%;
+}
+.container1 .box1{
+
+    margin-left: 30px;
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid blue; */
+}
+.container1 .box1 .connection, .microphone {
+    margin-bottom: 25px;
+    margin-left: 32px;
+}
+
+.container1 .box1 .battery, .load {
+    margin-bottom: 25px;
+}
+.container1 .box1 .wrap{
+    width: 60%;
+    height: 15%;
+    font-size: .4rem;
+    line-height: 15px;
+}
+.container1 .box2{
+    /* border: 4px solid white; */
+    height: 100%;
+    width: 50%;
+}
+.container1 .box2 img{
+    height: 80%;
+    width: 100%;
+}
+/*----------------------------- Case ------------------------------------*/
+.case{
+    height: 60%;
+    width: 55%;
+    margin: 0 25%;
+}
+.case .heading-text{
+    height: 10%;
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 8%;
+}
+.container2{
+    display: flex;
+    height: 80%;
+}
+.container2 .box1{
+    height: 100%;
+    width: 60%;
+}
+.container2 .box1 img{
+    height: 90%;
+    width: 75%;
+}
+.container2 .box2{
+    width: 40%;
+    height: 80%;
+}
+.container2 .box2 p{
+    margin-top: 30%;
+    font-size: .8rem;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+.container2 .box2 button{
+    border-style: none;
+    height: 15%;
+    width: 80%;
+    margin-top: 8%;
+    border-radius: 13px ;
+    background-color: #1a1a1d;
+    box-shadow: 5px 5px 10px rgb(40, 39, 39);
+}
+.container2 .box2 button a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 13px ;
+    padding: 3% 12%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.container2 button a h2{
+    font-size: .9rem;
+}
+
+/*----------------------------- Buy_-Now ------------------------------------*/
+
+.buy-product{
+    margin-top: 6%;
+    background-color: #1e1e21;
+    box-shadow: 5px 5px 10px rgb(40, 39, 39);
+    width: 100%;
+    height: 42%;
+    border-radius: 20px;
+    display: flex;
+    gap: 2%;
+}
+.buy-product .box1{
+    height: 98%;
+    width: 35%;
+    margin: 8% 0 0 12%;
+}
+.buy-product .box1 h2{
+    word-spacing: 2px;
+    line-height: 30px;
+    margin-bottom: 2%;
+    font-weight: 800;
+}
+.buy-product .box1 p{
+    word-spacing: 1px;
+    margin-bottom: 5%;
+}
+.buy-product .box1 button{
+    background-color: #0f0f10;
+    word-spacing: 1px;
+    height: 22%;
+    width: 30%;
+    padding: 6px 0;
+    border-radius: 13px ;
+    box-shadow: 5px 5px 10px rgb(53, 52, 52);
+    border-style: none;
+    cursor: pointer;
+}
+.buy-product .box1 button a{
+    padding: 6px 0;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 5px ;
+    font-weight: 700;
+}
+.buy-product .box2{
+    height: 80%;
+    margin-top: 2%;
+
+}
+.buy-product .box2 img{
+    height: 95%;
+    width: 90%;
+}
+/*----------------------------- Choose Your Style ------------------------------------*/
+.products{
+    margin: 8% 25%;
+    height: 83%;
+    width: 55%;
+}
+.products img{
+    height: 12%;
+    width: 35%;
+    margin-left: 48%;
+}
+.products .container{
+    width: 100%;
+    height: 88%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-auto-rows: minmax(160px,100px);
+    grid-gap: 5%;
+}
+.products .container .style{
+    margin-left: 12%;
+    height: 100%;
+    width: 65%;
+}
+/*---------- Box-1 -----------*/
+.container .box1 .image{
+    height: 20%;
+    width: 60%;
+    margin-left: 18%;
+}
+.container .box1 img{
+    overflow: visible;
+    height: 350%;
+    width: 100%;
+    margin-left: 0;
+}
+.container .box1 .info{
+    border-radius: 10px;
+    background-color: #1e1e21;
+    height: 80%;
+    display: flex;
+    gap: 25%;
+}
+.container .box1 .info .text{
+    margin-top: 50%;
+    margin-left: 18%;
+}
+.container .box1 h2{
+    font-size: .7rem;
+    font-weight: 600;
+}
+.container .box1 p{
+    font-size: .8rem;
+}
+.container .box1 .info button{
+    border-style: none;
+    box-shadow: 5px 5px 10px rgb(40, 39, 39);
+    background-color: #0f0f10;
+    height: 20%;
+    width: 17%;
+    margin-top: 50%;
+}
+.container .box1 .info button img{
+    height: 70%;
+    width: 50%;
+}
+/*---------- Box-2 -----------*/
+.container .box2 .image{
+    height: 20%;
+    width: 60%;
+    margin-left: 18%;
+}
+.container .box2 img{
+    overflow: visible;
+    height: 350%;
+    width: 100%;
+    margin-left: 0;
+}
+.container .box2 .info{
+    border-radius: 10px;
+    background-color: #1e1e21;
+    height: 80%;
+    display: flex;
+    gap: 25%;
+}
+.container .box2 .info .text{
+    margin-top: 50%;
+    margin-left: 18%;
+}
+.container .box2 h2{
+    font-size: .7rem;
+    font-weight: 600;
+}
+.container .box2 p{
+    font-size: .8rem;
+}
+.container .box2 .info button{
+    border-style: none;
+    box-shadow: 5px 5px 10px rgb(40, 39, 39);
+    background-color: #0f0f10;
+    height: 20%;
+    width: 17%;
+    margin-top: 50%;
+}
+.container .box2 .info button img{
+    height: 70%;
+    width: 50%;
+}
+/*---------- Box-3 -----------*/
+.container .box3 .image{
+    height: 20%;
+    width: 60%;
+    margin-left: 18%;
+}
+.container .box3 img{
+    overflow: visible;
+    height: 350%;
+    width: 100%;
+    margin-left: 0;
+}
+.container .box3 .info{
+    border-radius: 10px;
+    background-color: #1e1e21;
+    height: 80%;
+    display: flex;
+    gap: 25%;
+}
+.container .box3 .info .text{
+    margin-top: 50%;
+    margin-left: 18%;
+}
+.container .box3 h2{
+    font-size: .7rem;
+    font-weight: 600;
+}
+.container .box3 p{
+    font-size: .8rem;
+}
+.container .box3 .info button{
+    border-style: none;
+    box-shadow: 5px 5px 10px rgb(40, 39, 39);
+    background-color: #0f0f10;
+    height: 20%;
+    width: 17%;
+    margin-top: 50%;
+}
+.container .box3 .info button img{
+    height: 70%;
+    width: 50%;
+}
+/*---------- Box-4 -----------*/
+.container .box4 .image{
+    height: 20%;
+    width: 60%;
+    margin-left: 18%;
+}
+.container .box4 img{
+    overflow: visible;
+    height: 350%;
+    width: 100%;
+    margin-left: 0;
+}
+.container .box4 .info{
+    border-radius: 10px;
+    background-color: #1e1e21;
+    height: 80%;
+    display: flex;
+    gap: 25%;
+}
+.container .box4 .info .text{
+    margin-top: 50%;
+    margin-left: 18%;
+}
+.container .box4 h2{
+    font-size: .7rem;
+    font-weight: 600;
+}
+.container .box4 p{
+    font-size: .8rem;
+}
+.container .box4 .info button{
+    border-style: none;
+    box-shadow: 5px 5px 10px rgb(40, 39, 39);
+    background-color: #0f0f10;
+    height: 20%;
+    width: 17%;
+    margin-top: 50%;
+}
+.container .box4 .info button img{
+    height: 70%;
+    width: 50%;
+}
+/*---------- Box-5 -----------*/
+.container .box5 .image{
+    height: 20%;
+    width: 60%;
+    margin-left: 18%;
+}
+.container .box5 img{
+    overflow: visible;
+    height: 350%;
+    width: 100%;
+    margin-left: 0;
+}
+.container .box5 .info{
+    border-radius: 10px;
+    background-color: #1e1e21;
+    height: 80%;
+    display: flex;
+    gap: 25%;
+}
+.container .box5 .info .text{
+    margin-top: 50%;
+    margin-left: 18%;
+}
+.container .box5 h2{
+    font-size: .7rem;
+    font-weight: 600;
+}
+.container .box5 p{
+    font-size: .8rem;
+}
+.container .box5 .info button{
+    border-style: none;
+    box-shadow: 5px 5px 10px rgb(40, 39, 39);
+    background-color: #0f0f10;
+    height: 20%;
+    width: 17%;
+    margin-top: 50%;
+}
+.container .box5 .info button img{
+    height: 70%;
+    width: 50%;
+}
+/*----------------------------------- Footer ---------------------------------------*/
+footer{
+    margin-top: 18%;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .logo{
+    height: 40px;
+    width: 42px;
+}
+.wrapper img{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.wrapper .products{
+    width: 17%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper .support{
+    /* border: 2px solid red; */
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+}
+.wrapper  h1{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.wrapper a{
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 550;
+    margin-bottom: 6%;
+}
+.wrapper .link{
+    width: 20%;
+}
+.wrapper .link .email{
+    padding: 4px 4px 4px 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e21;
+    height: 40%;
+
+}
+    
+.wrapper .link .email button{
+    background-color: #0f0f10;
+    border-radius: 8px;
+    border-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px;
+    height: 80%;
+    width: 65%;
+}
+.wrapper .link .email button img{
+    height: 38%;
+    width: 15%;
+}
+.wrapper .social_link{
+    height: 25%;
+}
+.wrapper .social_link img{
+    height: 100%;
+    width: 16%;
+}
+
+
+

@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+/*---------------------- Header --------------------------*/
+nav {
+  margin: 1% 8%;
+}
+nav img {
+  width: 12%;
+}
+nav ul {
+  margin-right: 4%;
+  width: 25%;
+}
+nav,
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 550;
+}
+/*  */
+section {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 350px;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+form h1 {
+  text-align: center;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form div label {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 500; 
+}
+
+form div input {
+  border: transparent;
+  border-radius: 10px;
+  padding: 5px 10px;   
+}
+
+form div textarea {
+  border: transparent;
+  border-radius: 10px;
+  resize: none;
+  height: 100px;
+  padding: 5px 10px;
+}
+
+form button {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    border: transparent;
+    border-radius: 10px;
+    background: #20bc7e;
+}
