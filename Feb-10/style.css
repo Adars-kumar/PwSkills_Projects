@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: #111827;
+}
+
+/* --------------------------- Header ---------------------------------- */
+
+nav{
+    padding: 12px 20px ;
+    height: 70px;
+}
+ul{
+    width: 33%;
+    float: right;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: flex-end;
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 1.1rem;  
+    transition: all 0.4s ease 0s;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 6px 10px;
+}
+a#active , a:hover{
+    background-color: rgb(46, 46, 200);
+}
+/* ---------------------------- Section ---------------------------------- */
+
+section{
+    margin: 0 25%;
+    width: 55%;
+    height: 93vh;
+}
+
+/* ---------------------------- Wrapper-1 ---------------------------------- */
+.wrapper-1{
+    display: flex;
+}
+.left-section{
+    width: 50%;
+    padding-top: 90px;
+    padding-left: 250px;
+}
+.right-section{
+    width: 50%;
+}
+.label{
+    display: flex;
+    align-items: end;
+}
+.label img{
+    height: 20px;
+    width: 20px;
+}
+.label h2{
+    font-size: 1.1rem;
+}
+.text span{
+    font-size: 1.1rem;
+    color: yellow;
+}
+.right-section img{
+    height: 250px;
+    width: 250px;
+}
+
+/* ---------------------------- Wrapper-2 ---------------------------------- */
+.wrapper-2 h2{
+    font-size: 1.2rem;
+    padding: 3% 45% 0 45%;
+}
+.wrapper-2 hr{
+    border: 2px solid blue;
+    margin: 0 47% 3% 45%;
+}
+.project-container{
+    width: 40%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0% 30%;
+}
+.project-container img{
+    height: 150px;
+    width: 150px;
+}
+.box h1{
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* ---------------------------- Footer ---------------------------------- */
+footer{
+    width: 15%;
+    height: 90px;
+    margin: 0 40% 0 44%;
+    text-align: center;
+}
+.footer-box hr{
+    border: 2px solid blue;
+    margin: 0 28% 0 28%;
+}
+.footer-box h2{
+    font-size: 1.2rem;
+}
+.social-link{
+    margin-top: 8%;
+}
+.social-link img{
+    height: 20px;
+    width: 20px;
+}
+.hamburger img{
+    height: 25px;
+    width: 25px;
+}
+.hamburger{
+    display: none ;
+    height: fit-content;
+    cursor: pointer;
+    transition: .3s;
+}
+#check{
+    display: none;
+}
+@media screen and (max-width:768px) {
+    nav ul{
+       flex-direction: column;
+       gap: 30px;
+       align-items: center;
+       justify-content: center;
+       width: 80%;
+       position: fixed;
+       top: 0;
+       right: 0;
+       z-index: 100;
+       background-color:  black;
+       transition: all 0.4s ease-in-out;
+    }
+    nav ul li{
+        margin-top: 40px;
+    }
+    nav ul li a{
+        padding: 10px;
+    }
+    .hamburger{
+        display: block;
+    }
+    #check:checked, nav ul{
+        right: 0;
+    }
+}
